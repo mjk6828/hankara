@@ -11,6 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.han.pjt.service.MemberService;
 import com.han.pjt.vo.MemberVO;
 
+import lombok.extern.log4j.Log4j2;
+
+@Log4j2
 @Controller
 public class MainController {
 
@@ -25,5 +28,11 @@ public class MainController {
 		model.addAttribute("vo",vo);
 		
 		return "member/member";
+	}
+	
+	@RequestMapping("/Main.do")
+	public String Main() throws Exception{
+		log.info("Main Page");
+		return "Main";
 	}
 }
