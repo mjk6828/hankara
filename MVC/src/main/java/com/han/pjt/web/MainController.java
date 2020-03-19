@@ -35,4 +35,9 @@ public class MainController {
 		log.info("Main Page");
 		return "Main";
 	}
+	@RequestMapping("/Login.do")
+	public String Login(Model model, MemberVO vo) {
+		
+		return "member/member";
+	}
 }

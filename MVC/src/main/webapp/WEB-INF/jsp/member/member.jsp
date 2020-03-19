@@ -5,15 +5,25 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>Login</title>
 </head>
-<body>
-member Page
-<c:forEach var="vo" items="${vo}">
-<p>${vo.id}</p>
-<p>${vo.name}</p>
-<p>${vo.email}</p>
 
-</c:forEach>
-</body>
+<center>
+
+<table class="table">
+<thead>
+<tr>
+<td>
+아이디
+</td>
+<td><input type="text" name="id" size="10"></td>
+</tr>
+<tr>
+<td>패스워드</td>
+<td><input type="password" name="pass" size="10"></td>
+</tr>
+</thead>
+</table>
+
+</center>
 </html>

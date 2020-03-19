@@ -52,7 +52,7 @@
 				data-toggle="dropdown" role="button" aria-expanded="false">로그인 <span
 					class="caret"></span></a>
 				<ul class="dropdown-menu" role="menu">
-					<li><a href="#">로그인</a></li>
+					<li><a href="./Login.do">로그인</a></li>
 					<li><a href="#">회원가입</a></li>
 				</ul></li>
 		</ul>
