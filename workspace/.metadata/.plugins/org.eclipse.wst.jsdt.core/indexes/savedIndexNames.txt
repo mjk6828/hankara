@@ -1,6 +1,0 @@
-INDEX VERSION 1.4+D:\git\hankara\workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-3194052018.index
-3033423577.index
-3689519981.index
-315928193.index
-3505779182.index
