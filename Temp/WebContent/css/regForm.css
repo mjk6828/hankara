@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+*{
+	font-family: 'Ubuntu';
+ }
+
+body, html {
+	height: 100%;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: #FFFFE0;
+}
+
+#regform {
+	position: absolute;
+	top: 15%;
+	right: 39%;
+	border: 0.8px solid;
+	border-radius: 10px;
+	padding: 0px 0px 8px 10px;
+}
+
+#register {
+	width: 400px;
+	padding: 0;
+}
+
+.title{
+	 text-align: center;
+	 color:#403866; 
+	 padding-bottom: 30px;
+}
+
+.ID{
+	height: 37px;
+	width: 310px;
+	color: #403866;
+	font-size:25px;
+	background-color: #e6e6e6;
+	border-radius: 3px;
+	border:none;
+	padding-left: 10px;
+}
+
+.PW, .REPW, .NAME, .EMAIL, .ZIPCODE{
+	height: 37px;
+	width: 388px;
+	color: #403866;
+	font-size:25px;
+	background-color: #e6e6e6;
+	border-radius: 3px;
+	border:none;
+	padding-left: 10px;
+}
+
+
+.PHONE{
+	height: 37px;
+	width: 140px;
+	color: #403866;
+	font-size:25px;
+	background-color: #e6e6e6;
+	border-radius: 3px;
+	border:none;
+	padding-left: 10px;
+}
+
+.PHONE1{
+	height: 37px;
+	width: 60px;
+	color: #403866;
+	font-size:16px;
+	background-color: #e6e6e6;
+	border-radius: 3px;
+	border:none;
+	padding-left: 10px;
+}
+
+.ZIPCODE1{
+	height: 37px;
+	width: 335px;
+	color: #403866;
+	font-size:25px;
+	background-color: #e6e6e6;
+	border-radius: 3px;
+	border:none;
+	padding-left: 10px;
+}
+
+.regbtn{
+	height: 60px;
+	width: 388px;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 3px;
+	background-color: #827ffe;
+	border:none;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    margin-top:10px;
+    transition: all .4s;
+}
+
+.btn{
+	background-color: #827ffe;
+	border-radius: 3px;
+	color: white;
+	transition: all .4s;
+	float: right;
+}
+
+.btn:hover{
+	background-color: rgb(106, 90, 205);
+	color: white;
+}
+
+.regbtn:hover{
+	background-color: rgb(106, 90, 205);
+}
+
+::placeholder{
+	font-size: 20px;
+	padding-left: 20px;
+}

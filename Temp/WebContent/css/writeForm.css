@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body, html {
+	height: 100%;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: #FFFFE0;
+}
+	
+* {
+	@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+	font-family: 'Ubuntu ';
+	box-sizing: border-box ;	
+}
+
+#writeform{
+	position: absolute;
+	top: 10%; 
+	right: 35%;
+	width: 700px;
+	border: 0.8px solid;
+	border-radius: 10px;
+	padding: 0px 5px 8px 5px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #827ffe;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all .4s;
+}
+
+input[type=reset] {
+  background-color: #827ffe;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all .4s;
+  margin-right: 1%;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(106, 90, 205);
+}
+
+input[type=reset]:hover {
+  background-color: rgb(106, 90, 205);
+}
+
+input[type=password]{
+	color: black;
+	border: 1px solid #ccc;
+	cursor: pointer;
+  	border-radius: 3px;
+}
+
+.container {
+  width:40%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}

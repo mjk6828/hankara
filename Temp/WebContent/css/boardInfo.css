@@ -1,0 +1,93 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+html{
+   height:95%;
+}
+
+
+*{
+   font-family: 'Nanum Gothic';
+}
+
+.table-bordered{
+   border: 2px solid #ddd;
+}
+
+.container{
+   width: 700px;
+   position: absolute;
+   top: 15%;
+   left: 31%;
+}
+
+#title{
+   background-color: #aaaaff;
+   text-align: center;
+}
+
+#text{
+   background-color: #ffffff;
+}
+
+.infobtn{
+    float: right;
+}
+
+input[type=button]{
+   font-size: 16px;
+   border-radius: 3px;
+   border:none;
+    justify-content: center;
+   background-color: #827ffe;
+   color: #fff;
+   transition: all .4s;
+}
+
+input[type=button]:hover, input[type=reset]:hover{
+   background-color: rgb(106, 90, 205);
+   color: #fff;
+}
+
+#btn_good, #btn_bad{
+   font-size: 18px;
+   border-radius: 3px;
+   border:none;
+    justify-content: center;
+   background-color: #827ffe;
+   color: #fff;
+   transition: all .4s;
+}
+
+#btn_good:hover, #btn_bad:hover{
+   background-color: rgb(106, 90, 205);
+   color: #fff;
+}
+
+#comment_btn{
+   font-size: 25px;
+   border-radius: 3px;
+   border:none;
+    justify-content: center;
+   background-color: #827ffe;
+   color: #fff;
+   transition: all .4s;
+}
+
+#comment_btn:hover{
+   background-color: rgb(106, 90, 205);
+   color: #fff;
+}
+
+input[type="text"], input[type="password"], textarea{
+   font-size: 20px;
+   border-radius: 3px;
+   border:1px solid;
+}
+
+label{
+   font-size: 20px;
+}
+#commentTable{
+	font-size : 25px;
+}

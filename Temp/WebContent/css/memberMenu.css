@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.memberMenubar{
+	position: relative;
+    text-align: center;
+    border: 1px solid #dcdddf;
+    color: #696969;
+    float: left;
+    margin-right: 50px;
+}
+.memberMenu{
+	padding: 20px;
+	font-size: 20px;
+	border: 1px solid #dcdddf;
+}
+.membercontrolMenu{
+	padding: 10px;
+	font-size: 20px;
+	border: 1px solid #dcdddf;
+}
+.data{
+	border: 1px sold #dcdddf;
+	font-size: 20px;
+	margin-left: 50px;
+	float: left;
+}
+.membercontainer{
+	padding: 10px;
+	font-size: 20px;
+	margin-left: 50px;
+	float: left;
+}
+.scrapContainer{
+	padding: 10px;
+	font-size: 20px;
+	margin-left: 50px;
+	float: left;
+}
+#title{
+	background-color:#aaaaff;
+	text-align:center;
+}

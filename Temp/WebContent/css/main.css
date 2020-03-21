@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+* {
+	font-family: 'Nanum Gothic';
+}
+
+BODY {
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #FFFFE0;
+}
+
+FOOTER{
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.jumbotron .text-center{
+	text-shadow: black 0.2em 0.2em 0.2em;
+	color: white;
+}
+
+.jumbotron{
+	/* background-image: url("../images/Google-Photo.jpg"); */
+	background-color: #4d4d4d;
+	background-size: contain;
+}
+
+
+.modal-content{
+	color: black;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover { 
+	color: #bbbbbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* ============ 네비게이션 영역 ==================*/ 
+.navbar-default { /* 배경색상 */
+	background-color: #000000;
+	border-color: #000000;
+}
+
+.navbar-default .navbar-brand {
+	color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus { /* 네비게이션 제목에 마우스를 올렸을 때 */
+	background-color: transparent;
+	color: #eaaa02;
+}
+
+/* .navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus, { 현재 선택된 네비게이션 색상 이벤트
+	color: #000000;
+	background-color: #ffffff;
+	text-decoration: none;
+} */
+
+.navbar-default .navbar-nav > li > a { /* 네비게이션 기본 색상 */
+	color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus { /* 네비게이션 제목에 마우스를 올렸을 때 */
+	background-color: transparent;
+	color: #eaaa02;
+}
+
+
+@media (max-width: 767px) { /* 해상도가 드랍다운 아이템에 마우스를 올렸을 때 */
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #ffffff;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #bbbbbb;
+	}
+}
+/* ============ 네비게이션 영역 ==================*/
+
+
+
+
+
+/* ============ 개발자 소개 영역 ==================*/
+.container {
+	padding: 80px 120px;
+}
+
+.person {
+	border: 10px solid transparent;
+	margin-bottom: 25px;
+	width: 80%;
+	height: 80%;
+	opacity: 0.7;
+}
+
+.person:hover {
+	border-color: #f1f1f1;
+}
+/* ============ 개발자 소개 영역 ==================*/
+
+/* ============ TOP 영역 ==================*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 120px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  /* background-color: #555; */
+  color: yellow;
+}
+/* ============ TOP 영역 ==================*/
