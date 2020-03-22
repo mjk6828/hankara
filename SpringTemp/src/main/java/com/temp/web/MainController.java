@@ -27,10 +27,10 @@ public class MainController {
 		return "member/Memberlist";
 	}
 	
-	@RequestMapping("/Main.do")
+/*	@RequestMapping("/Main.do")
 	public String Main() throws Exception{
 		
 		return "Main";
-	}
+	}*/
 	
 }
