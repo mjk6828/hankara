@@ -32,5 +32,11 @@ public class MainController {
 		
 		return "Main";
 	}*/
+
+	@RequestMapping("/write.do")
+	public String write() {
+		
+		return "board/writeForm";
+	}
 	
 }

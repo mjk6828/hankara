@@ -13,13 +13,13 @@
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<link href="../css/writeForm.css" rel="stylesheet" type="text/css">
+<link href="<c:url value='css/boardForm.css' />" rel="stylesheet" type="text/css">
 
 <!-- 에디터 -->
 <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote.css" rel="stylesheet">
 <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote.js"></script>
 <script src="lang/summernote-ko-KR.js"></script>
-<!-- <script type="text/javascript" src="../js/summernote.js"></script> -->
+<script type="text/javascript" src="<c:url value='js/summernote.js' />"></script>
 <title>글쓰기 폼</title>
 </head>
 <body>
